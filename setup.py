@@ -20,7 +20,7 @@ setup(
     py_modules=['target_postgres'],
     install_requires=[
         'arrow==0.*',
-        'psycopg2-binary==2.*',
+        'psycopg2-binary>=2.8',
         'singer-python>=5.9.0'
     ],
     setup_requires=[
